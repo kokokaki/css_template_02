@@ -1,0 +1,56 @@
+
+/* common */
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕", sans-serif;
+    color: #222328;
+}
+body {
+    width: 1000px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+
+
+/*  header 영역  */
+header {    
+    float: left;
+}
+header .top {
+    float: left;
+    background: #eee;
+    width: 200px;
+    height: 650px;
+}
+header .top .logo {
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header .top .logo img {
+    margin-left: 15px;
+}
+
+header .top .menu {
+    width: 90%;
+    text-align: center;    
+}
+header .top .menu li {
+    font-size: 16px;
+    font-weight: 700;       
+}
+header .top .menu li a {
+    color: #fff;
+    background: #222328; 
+    padding: 10px 0;
+}
+header .top .menu li a:hover {
+    background: #930930;
+    color: #ff0;
+}
